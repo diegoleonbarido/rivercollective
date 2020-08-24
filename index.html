@@ -26,8 +26,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGllZ29sZW9uYmFyaWRvIiwiYSI6ImNrMm5sY3Q4NDB1M
 var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/satellite-v9',
-center: [-74.068640, 4.70578],
-zoom: 3
+center: [-38.855987, 18.747269],
+zoom: 2
 });
  
 map.on('load', function() {
@@ -166,7 +166,8 @@ map.addLayer({
 },
 "layout": {
 "icon-image": "{icon}-15",
-"icon-allow-overlap": true
+"icon-allow-overlap": true,
+"icon-size": 1.25
 }
 });
  
